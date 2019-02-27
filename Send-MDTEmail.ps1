@@ -1,7 +1,7 @@
 
 <#PSScriptInfo
 
-.VERSION 0.0.4
+.VERSION 0.0.5
 
 .GUID 6686d92f-6c89-4c54-a2e3-b525d0d8ed89
 
@@ -15,7 +15,7 @@
 
 .LICENSEURI 
 
-.PROJECTURI 
+.PROJECTURI https://github.com/dfranciscus/Send-MDTEmail
 
 .ICONURI 
 
@@ -25,7 +25,7 @@
 
 .EXTERNALSCRIPTDEPENDENCIES 
 
-.RELEASENOTES Removed Body parameter
+.RELEASENOTES Added ProjectURI
 
 
 .PRIVATEDATA 
