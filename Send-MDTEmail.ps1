@@ -69,7 +69,7 @@ Try
         if ($Data)
         {
             $Data = Out-String -InputObject $Data
-            Send-MailMessage -Body $$Data -To $SMTPTo -From $SMTPFrom -SmtpServer $SMTPServer -Subject $SMTPSubject -ErrorAction Stop
+            Send-MailMessage -Body $Data -To $SMTPTo -From $SMTPFrom -SmtpServer $SMTPServer -Subject $SMTPSubject -ErrorAction Stop
         }
     }
 }
