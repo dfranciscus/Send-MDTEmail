@@ -5,4 +5,4 @@ This script runs continously to monitor MDT deployments and sends email alerts w
 
 Install-Script Send-MDTEmail
 
-./Send-MDTEmail.ps1 -SMTPFrom mdt@domain.com -SMTPTo dan@domain.com -SMTPSubject "MDT Results" -SMPTServer smtp.domain.com -MDTRoot E:\MDTShare  
+.\Send-MDTEmail.ps1 -SMTPFrom mdt@domain.com -SMTPTo dan@domain.com -SMTPSubject "MDT Results" -SMPTServer smtp.domain.com -MDTRoot E:\MDTShare  
